@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
         PizzaCalculator calc = new PizzaCalculator(numAttend, hungerLevel);
         int totalPizzas = calc.getTotalPizzas();
 
+
         // Place totalPizzas into the string resource and display
         String totalText = getString(R.string.total_pizzas, totalPizzas);
         mNumPizzasTextView.setText(totalText);
